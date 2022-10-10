@@ -219,10 +219,9 @@ footer > p {
     font-size: 1.3em;
 }
 
-#pfooter{
-    font-size: 16px;
-    width: 800px;
+#pfooter {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
     text-align: center;
-    text-align: justify;
-    margin-left: 215px;
+    font-size: .8em;
 }
