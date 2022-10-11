@@ -224,7 +224,6 @@ footer {
     color: white;
     text-align: center;
     font-size: .8em;
-    text-align: justify;
 }
 
 @media (max-width: 480px) {
