@@ -70,7 +70,7 @@ header > img {
     font-family: 'Cormorant SC', serif;
 }
 
-div {
+div.personagem {
     background-image: linear-gradient(45deg, rgb(185, 185, 185), rgb(5, 5, 5));
     width: 400px;
     height: 400px;
@@ -100,8 +100,18 @@ div {
 }
 
 #video {
-    margin: auto;
-    display: flex;
+    background-color: rgba(51, 51, 51, 0.562);
+    padding: 5px;
+    padding-bottom: 55.6%;
+    position: relative;
+}
+
+#video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 #jogabilidade {
@@ -213,10 +223,11 @@ footer {
 }
 
 #dev_footer {
-   background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
     color: white;
     text-align: center;
     font-size: 1.3em;
+    text-align: justify;
 }
 
 #pfooter {
@@ -224,7 +235,9 @@ footer {
     color: white;
     text-align: center;
     font-size: .8em;
+    text-align: justify;
 }
+
 
 @media (max-width: 480px) {
     #dev_footer{
@@ -234,8 +247,8 @@ footer {
         font-size: 0.4;
     }
     header > img {
-    width: 300px;
-    margin: auto;
-    display: block;
-}
+        width: 300px;
+        margin: auto;
+        display: block;
+    }
 }
