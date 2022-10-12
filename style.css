@@ -234,6 +234,10 @@ footer {
 
 
 @media (max-width: 480px) {
+    footer{
+        width: 40px;
+    }
+    
     #dev_footer{
         font-size: .7em;
     }
